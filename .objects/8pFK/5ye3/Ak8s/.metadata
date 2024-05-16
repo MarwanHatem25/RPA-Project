@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome World's Fastest VPN and Privacy Protec",
+  "Type": "Screen",
+  "Id": "Ak8sJNrZG0mbwQyPxlrXew",
+  "Reference": "gn3TfRu6T0qaMQQZqvtUxQ/Ak8sJNrZG0mbwQyPxlrXew",
+  "ParentRef": "gn3TfRu6T0qaMQQZqvtUxQ/5ye3HtZBJke0mdrPe539kw",
+  "Created": "2024-05-15T13:06:25.3205871Z",
+  "Updated": "2024-05-15T13:06:25.3205871Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

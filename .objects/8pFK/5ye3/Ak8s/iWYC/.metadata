@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Sign up'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "iWYCRrSZGEq2u24wggaGPw",
+  "Reference": "gn3TfRu6T0qaMQQZqvtUxQ/iWYCRrSZGEq2u24wggaGPw",
+  "ParentRef": "gn3TfRu6T0qaMQQZqvtUxQ/Ak8sJNrZG0mbwQyPxlrXew",
+  "Created": "2024-05-15T13:06:25.7663911Z",
+  "Updated": "2024-05-15T13:06:25.7663911Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

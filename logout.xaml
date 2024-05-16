@@ -1,0 +1,134 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="logout" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="780,925.6" sap2010:WorkflowViewState.IdRef="logout_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="logout" sap:VirtualizedContainerService.HintSize="512,860.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Dashboard | hide.me" sap:VirtualizedContainerService.HintSize="449.6,772" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c0bc88a8-f282-4b06-8f2a-6e4faf1f1ec3" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,532" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Manga_coco'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c0bc88a8-f282-4b06-8f2a-6e4faf1f1ec3" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://member.hide.me/en/" CVScreenId="1b6f9aa5-de34-4386-822b-744bff0a970f" CvElementArea="1659, 233, 21, 21" CvTextArea="1578, 235, 82, 16" CvTextArgument="Manga_coco" CvType="ArrowButton" DesignTimeRectangle="1580, 231, 91, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Manga_coco' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Manga_coco' tag='A' type='' class='o-headertop__select js-headertoponclick' check:innerText='Manga_coco' /&gt;" Guid="bf61bdf4-4704-438e-8ec3-a1280763d0ab" InformativeScreenshot="f6a4d3e336a484949696d22500bcded3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard | hide.me' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="353.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c0bc88a8-f282-4b06-8f2a-6e4faf1f1ec3" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://member.hide.me/en/" CVScreenId="1aecc6a8-4bca-4faa-8766-bae5c50deba8" CvTextArea="1505, 313, 50, 17" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1508, 304, 163, 37" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Logout' class='o-headertop__link' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' class='o-headertop__link' tag='A' type='' check:innerText='Logout' /&gt;" Guid="3081229c-0ee7-4114-91be-ea4fd0ac872d" InformativeScreenshot="c4be909f1235fa5d861418419b176d7d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard | hide.me' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIoSURBVDhPjVNPSBRRGJ91dmbeewNdOkWHDtGxg4fOXpOoQwSpkdBBBKPYgg6RG5aUVERBKSxGlCEpi0UhWKCsUvlnxlmokBIPHYLEtojQrZld4tf3njuzs8VShx9v9vv92fd9840GIPG/YPmfO2wvOCI8PyPcwOVe8KBuABG67ZQaueufELm1MTbsFPjMF4jFIAa/oEmhtgRLy4Ezp9wknPU0kc8J36WIT38Gy76GfjQF89L9PwKCrCa8Uic9zBECPr4C/vJbJOBTq+pko3kkO7vBJz9FnOLdoFWjh1Xh+hDzG5tmOsXcelVEN7AGJ6G3nwZ79DYeUN4yi62aTKEfv1TR+QH+4mtVRMFsaJb+PY2GfW0we+9FnO36M5VZIaEGFZoqYE+XIYfGpwtInrwM/VAHkl094Lk1xZPnVBQgQUU5PIiFYrUFOtmT9zC6B9DQ3ALz4l1Yt8cVZ3n+rpoACb4YXFPGGNjwPIzzGegH2mGcvRXWV0JPTYAEvdtBKZID5RMf1OTNqyNIpvpUiLyh7ZVuhPq/Aqig224wag29UkOUPeutx9UuGOf6wUY8sHy5KaavDVBFWiz27OOUvIl54Q7MKw9VmHnzMczr2SItnRFp48Y45Du2BiaWpUntiWyLFstI9UX9S9QNEPnidv3Ymf1s7M27yuA222npWtCaD+8MdXUDQpjpzG4yL1VCykZHT6O29+CekP9ngITtbGwjs/zAems5JH4DHPGcvmx9vGYAAAAASUVORK5CYII=" InformativeScreenshot="22498cdc28da76d8d9bb519378f8b49c.jpg" Selector="&lt;html app='chrome.exe' title='Dashboard | hide.me' /&gt;" Title="Dashboard | hide.me" Url="https://member.hide.me/en/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

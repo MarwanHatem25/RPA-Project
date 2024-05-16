@@ -1,0 +1,124 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="openVPN" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="780,896.8" sap2010:WorkflowViewState.IdRef="openVPN_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="openVPN" sap:VirtualizedContainerService.HintSize="512,832" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: hide.me VPN" sap:VirtualizedContainerService.HintSize="449.6,743.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="35ff1326-421a-4e1c-9651-81e7e5e6fb5c" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,428.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="353.6,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Enable VPN'" sap:VirtualizedContainerService.HintSize="353.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="35ff1326-421a-4e1c-9651-81e7e5e6fb5c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="bff5afbc-9cf0-4eb6-98f2-2545ef7156d6" CvElementArea="189, 409, 381, 68" CvTextArea="314, 432, 130, 22" CvTextArgument="Enable VPN" CvType="Button" DesignTimeRectangle="193, 412, 375, 63" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;uia cls='Button' name='Enable VPN' /&gt;" FuzzySelectorArgument="&lt;uia cls='Button' name='Enable VPN' role='button' automationid='' check:fulltext='Enable VPN' /&gt;" Guid="25c91ba0-fea3-4835-960e-55a19e03e394" InformativeScreenshot="d2315601d42c84418d9d65685fb0e956.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='eVenture.297A3D83D3B_gt1fqrh5vs68c!App' title='hide.me VPN' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="bff5afbc-9cf0-4eb6-98f2-2545ef7156d6" CvElementArea="189, 409, 381, 68" CvTextArea="314, 432, 130, 22" CvTextArgument="Enable VPN" CvType="Button" DesignTimeRectangle="316, 426, 129, 34" ElementType="Text" FullSelectorArgument="&lt;uia cls='TextBlock' name='Enable VPN' /&gt;" FuzzySelectorArgument="&lt;uia cls='TextBlock' name='Enable VPN' role='text' automationid='' check:fulltext='Enable VPN' /&gt;" Guid="74338cb5-86cd-488f-92be-ea3c0f73460e" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="532, 138, 761, 725" FilePath="eVenture.297A3D83D3B_gt1fqrh5vs68c!App" IconBase64="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" InformativeScreenshot="c9bd3b7544dfbc39c0c4281a79fb1b11.png" Selector="&lt;wnd app='applicationframehost.exe' appid='eVenture.297A3D83D3B_gt1fqrh5vs68c!App' title='hide.me VPN' /&gt;" Title="hide.me VPN" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

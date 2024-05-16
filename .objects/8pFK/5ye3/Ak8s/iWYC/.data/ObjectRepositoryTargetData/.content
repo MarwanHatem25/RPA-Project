@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-KfQUQ3JpUOijwpwVRSw4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://member.hide.me/en/user/login" CVScreenId="68a37bc2-b6b6-4869-a3d2-1de01a88e943" CvTextArea="1020, 961, 62, 22" CvTextArgument="Sign up" CvType="Text" DesignTimeRectangle="1023, 1022, 59, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='page-member__link' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='page-member__link' tag='A' type='' aaname='Sign up' check:innerText='Sign up' /&gt;" Guid="7e99200c-0538-4928-894e-74f0dcf77486" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in | hide.me' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-7" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c4c5819e9053766830dfc5dc35ada4b8.png" xmlns="">0PkAA0-UMSkqM2UbdHY-E6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

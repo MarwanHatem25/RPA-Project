@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="hX3OKleuLEaJKX30iaQFRg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIoSURBVDhPjVNPSBRRGJ91dmbeewNdOkWHDtGxg4fOXpOoQwSpkdBBBKPYgg6RG5aUVERBKSxGlCEpi0UhWKCsUvlnxlmokBIPHYLEtojQrZld4tf3njuzs8VShx9v9vv92fd9840GIPG/YPmfO2wvOCI8PyPcwOVe8KBuABG67ZQaueufELm1MTbsFPjMF4jFIAa/oEmhtgRLy4Ezp9wknPU0kc8J36WIT38Gy76GfjQF89L9PwKCrCa8Uic9zBECPr4C/vJbJOBTq+pko3kkO7vBJz9FnOLdoFWjh1Xh+hDzG5tmOsXcelVEN7AGJ6G3nwZ79DYeUN4yi62aTKEfv1TR+QH+4mtVRMFsaJb+PY2GfW0we+9FnO36M5VZIaEGFZoqYE+XIYfGpwtInrwM/VAHkl094Lk1xZPnVBQgQUU5PIiFYrUFOtmT9zC6B9DQ3ALz4l1Yt8cVZ3n+rpoACb4YXFPGGNjwPIzzGegH2mGcvRXWV0JPTYAEvdtBKZID5RMf1OTNqyNIpvpUiLyh7ZVuhPq/Aqig224wag29UkOUPeutx9UuGOf6wUY8sHy5KaavDVBFWiz27OOUvIl54Q7MKw9VmHnzMczr2SItnRFp48Y45Du2BiaWpUntiWyLFstI9UX9S9QNEPnidv3Ymf1s7M27yuA222npWtCaD+8MdXUDQpjpzG4yL1VCykZHT6O29+CekP9ngITtbGwjs/zAems5JH4DHPGcvmx9vGYAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='World&amp;apos;s Fastest VPN and Privacy Protection | hide.me' /&gt;" Title="World's Fastest VPN and Privacy Protection | hide.me" Url="https://hide.me/en/">
+      <imageRef attrName="InformativeScreenshot" originalValue="8d88b266aaead5fabed520467ff6d978.jpg" xmlns="">0jRr7IcFq3kGZzvXz6K1YOg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
